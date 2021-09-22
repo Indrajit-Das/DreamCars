@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>First page</title>
+    <link href="css-main/main.css"rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javascript/first-page.js"></script>
+
+</head>
+<body>
+<div class="container-fluid banner">
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><p><span>D</span>ream<span>C</span>ars</p></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signUp.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="logIn-form.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron "id="middle">
+        <div class="row">
+            <div class="row">
+                <div class="col-md-4"></div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <h2 id="heading">See What Others Paid</h2>
+            </div>
+            <div class="col-md-2"></div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <p>Get competitive pricing on in-stock vehicles from TrueCar Certified Dealers.</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <a href="newCars.html"id="shop_btn1" class="btn btn-warning" role="button"> New Cars</a>
+        </div>
+        <div class="col-md-3">
+            <a href="usedCars.html"id="shop_btn2" class="btn btn-warning" role="button">Used Cars</a>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row"id="glyphicon_margin_top">
+        <div class="col-md-12">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-4">
+            <div id="griph-icon">
+                <a href="#footer_element"><span class=" glyphicon glyphicon-chevron-down "></span></a>
+            </div>
+            <script>
+                $(function(){
+                    $('a[href^="#"]').on('click',function(e){
+                        e.preventDefault();
+                        var target= this.hash;
+                        var $target=$(target);
+                        $('html,body').animate({
+                            'scrollTop':$target.offset().top},4000,'swing');
+                    });
+
+                });
+            </script>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="embed-responsive embed-responsive-16by9 ">
+            <video controls="pause" class="embed-responsive-item" src="How it's Made  Lamborghini Aventador.mp4"></video>
+        </div>
+    </div>
+
+
+    <!-- 4:3 aspect ratio -->
+</div>
+
+<div class="container-fluid huge_pic">
+</div>
+<div class="container-fluid "id="car_menu">
+    <div class="row"id="space">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-5"><h2>Price a new car. Choose a brand.</h2></div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-5"></div>
+        <div class="col-md-3">
+            <ul>
+                <li><a href="1st.html"><img src="cars/acura.png"alt="acura"class="img-responsive"width="82" height="50"/> </a></li>
+                <li><a href="ops.html"><img src="cars/index.png"alt="Audi"class="img-responsive"width="82" height="50" /></a></li>
+                <li><a href="ops.html"><img src="cars/BMW.png"alt="BMW"class="img-responsive"width="82" height="50"/> </a></li>
+                <li id="buick"><a href="ops.html"><img src="cars/Bulink.png"alt="Buick"class="img-responsive"width="82" height="50"> </a></li>
+                <li><a href="ops.html"><img src="cars/cherler.png"alt="Cadillac"class="img-responsive"width="82" height="50"/>  </a></li>
+                <li><a href="ops.html"><img src="cars/chevrolet.png"alt="Chevrolet"class="img-responsive"width="82" height="50"/> </a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+<div class="jumbotron ">
+    <h2>Our Sucess Review in Year Rating</h2>
+    <br>
+    <p></p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            2003(30%)
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            2008(40%)
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            20013(60%)
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+            2016(70%)
+        </div>
+    </div>
+</div>
+<div class="container-fluid"id="footer_element">
+    <footer class="footer" >
+        <div class="row"id="footer_content">
+            <div class="col-md-2">
+                <ul>
+                    <li><p class="footer_menu">Products</p></li>
+                    <li><a href="#">Used Cars For Sale</a></li>
+                    <li><a href="#">Sale My Car</a></li>
+                    <li><a href="#">Local Pricing</a></li>
+                    <li><a href="#">Lease a Car</a></li>
+                    <li><a href="#">View Mobile Site</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul>
+                    <li><p class="footer_menu">Media</p></li>
+                    <li><a href="#">News Room</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Insights Blogs</a></li>
+                    <li><a href="#">DreamCars Blogs</a></li>
+                    <li><a href="#">Developer Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul>
+                    <li><p class="footer_menu">DreamCars Dealer</p></li>
+                    <li><a href="#">Dealers Overview</a></li>
+                    <li><a href="#">Dealers Piedge</a></li>
+                    <li><a href="#">Dealers Portal Login</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul>
+                    <li><p class="footer_menu">Apps</p></li>
+                    <li><a href="#">Car buying App</a></li>
+                    <li><a href="#">DreamCars Sell App</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li><p class="footer_menu">About Us</p></li>
+                    <li><a href="#">Who Are We</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Rate Our Experience</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-md-2"class="Follow_Us_On">
+                <ul >
+                    <li><p class="footer_menu">Follow Us On</p></li>
+                    <li><a href="https://www.facebook.com/indro.jit.37"><img src="Social-logo/facebook-logo.jpg"width="40px" height="20px"></a></li>
+                    <li><a href="https://www.facebook.com/indro.jit.37"><img src="Social-logo/twitter.jpg"width="40px" height="20px"></a></li>
+                    <li><a href="https://www.facebook.com/indro.jit.37"><img src="Social-logo/peru_independence_day_2013-2004005-hp.jpg"width="40px" height="20px"></a></li>
+                    <li><a href="https://www.facebook.com/indro.jit.37"><img src="Social-logo/Yahoo_Messenger_logo.svg.png"width="40px" height="20px"></a></li>
+                    <li><a href="https://www.facebook.com/indro.jit.37"><img src="Social-logo/youtube_icon_007.png"width="40px" height="20px"></a></li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <p id="footer-p"><sup>@</sup>Copyrights and<sup>TM</sup>,&nbsp; All rights reserved DreamCars Inc. Ltd..&nbsp;( <i id="demo"></span> </i> )&nbsp;&nbsp;<b id="time"></b></p>
+        </div>
+    </footer>
+</div>
+<script>
+    function checkTime(i) {
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
+    }
+
+    function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        // add a zero in front of numbers<10
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+        t = setTimeout(function () {
+            startTime()
+        }, 500);
+    }
+    startTime();
+</script>
+<script>
+    document.getElementById("demo").innerHTML = Date();
+</script>
+</body>
+</html>

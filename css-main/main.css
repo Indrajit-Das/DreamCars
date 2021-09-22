@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+span{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#heading{
+    color:white;
+}
+.banner{
+    background-image: url('../banner-pic/bigstock-Sales-situation-in-a-car-deale-15955355-1024x682.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#middle{
+    color: white;
+    background-color: rgba(238, 238, 238, 0.02);
+}
+.col-md-6 h2{
+    font-size: 35px;
+}
+
+#shop_btn1 {
+    height: 50px;
+    width: 170px;
+    font-size: 25px;
+}
+#shop_btn2 {
+    height: 50px;
+    width: 170px;
+    font-size: 25px;
+}
+#glyphicon_margin_top{
+    height: 200px;
+}
+#griph-icon {
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.44);
+    border-radius: 4px 4px 4px 4px;
+    max-width: 50px;
+    text-align: center;
+}
+
+.huge_pic {
+    background-image: url("../banner-pic/10816758_7-celebs-with-the-best-car-collections_ta302f751.jpg");
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+}
+.row h2 {
+    font-size: 30px;
+    top: 35px;
+    color: rgba(0, 0, 0, 0.53);
+}
+#space{
+    height: 60px;
+}
+#car_menu {
+    margin-top: -650px;
+    height: 650px;
+}
+.col-md-3 ul{
+    list-style: none;
+    display: inline-block;
+}
+.col-md-3 ul li{
+    padding-bottom: 5px;
+}
+#buick{
+    margin-top: 5px;
+}
+.col-md-3 ul a img:hover{
+    background-color: rgba(60, 90, 224, 0.74);
+
+}
+#footer_element{
+    background-color: rgb(17,50,95);
+}
+
+ .footer_menu{
+     color:white;
+     font-weight:bolder;
+ }
+ #footer_content{
+     margin-top: 20px;
+ }
+.col-md-2 ul{
+    list-style: none;
+}
+.col-md-2 ul img:hover{
+    opacity: 0.4;
+}
+#footer-p{
+    color: #ffffff;
+    text-align: center;
+}

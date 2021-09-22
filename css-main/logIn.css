@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+span{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+}
+body{
+    background-image: url("../banner-pic/galaxy-note-5.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+#footer_element{
+    background-color: rgb(17,50,95);
+    margin-top: 97px;
+}
+
+.footer_menu{
+    color:white;
+    font-weight:bolder;
+}
+#footer_content{
+    margin-top: 20px;
+}
+.col-md-2 ul{
+    list-style: none;
+}
+.col-md-2 ul img:hover{
+    opacity: 0.4;
+}
+#footer-p{
+    color: #ffffff;
+    text-align: center;
+}
